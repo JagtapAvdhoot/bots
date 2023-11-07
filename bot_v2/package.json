@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.63.0",
+    "puppeteer": "^21.4.0",
+    "user-agents": "^1.0.1444",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "./src/data/*.*"
+    ]
+  },
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JagtapAvdhoot/node-telegram-bot",
+  "author": "JagtapAvdhoot <jagtap.avdhoot9@gmail.com>",
+  "license": "MIT"
+}
